@@ -9,7 +9,7 @@ public class TestBankAccount {
 	public TestBankAccount() {
 		// TODO Auto-generated constructor stub
 	}
-	
+	// Test case 1 
 	@Test
 	public void testDebitWithSufficientFunds() {
 			BankAccount bankAccount = new BankAccount(10); 
