@@ -39,7 +39,7 @@ public class BankAccountTest {
 		// fail("Not yet implemented");
 		BankAccount bankAccount = new BankAccount(10); 
 		double amount = bankAccount.debit(5.0); 
-		Assert.assertEquals(5.0, amount);
+		assertEquals(5.0, amount, 0.0);
 		System.out.println("testDebit is successfull");
 	}
 

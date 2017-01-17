@@ -74,13 +74,15 @@
   </build>
 
  <!-- https://mvnrepository.com/artifact/junit/junit -->
-
+   <properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+  </properties>
  <dependencies>
  	<dependency>
  		<groupId>junit</groupId>
  		<artifactId>junit</artifactId>
- 		<version>3.8.2</version>
- 		<scope>test</scope>
+ 		<version>4.11</version>		
  	</dependency>
  </dependencies>
 </project>
