@@ -11,7 +11,7 @@ public class BankAccount2 {
 	public double debit(double amount){
 		
 		if(balance < amount){
-			System.out.println("amount requested to be debitted is greater than the current balance ! Cannot proceed with transaction ..");
+			System.out.println("amount requested to be debited is greater than the current balance ! Cannot proceed with transaction ..");
 			return balance; 
 		}
 		
