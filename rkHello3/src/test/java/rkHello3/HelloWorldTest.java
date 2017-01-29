@@ -35,6 +35,9 @@ public class HelloWorldTest {
 	@Test
 	public void testSayHello() {
 		// fail("Not yet implemented");
+		String expected = "abc"; 
+		String actual = "abc" ;
+	assertEquals(expected, actual);
 		System.out.println("successfully tested testSayHello method !!!");
 	}
 
