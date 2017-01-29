@@ -29,13 +29,13 @@ public class HelloWorldTest {
 	@Test
 	public void testHelloWorld() {
 		// fail("Not yet implemented");
-		System.out.println("successfully tested Hello World constructor !");
+		System.out.println("successfully tested Hello World constructor !!");
 	}
 
 	@Test
 	public void testSayHello() {
 		// fail("Not yet implemented");
-		System.out.println("successfully tested testSayHello method !");
+		System.out.println("successfully tested testSayHello method !!");
 	}
 
 }
